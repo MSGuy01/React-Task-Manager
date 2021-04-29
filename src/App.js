@@ -7,6 +7,7 @@ import AddTask from './components/AddTask'
 //React imports
 import { useState } from 'react'
 
+//Use build folder for release, other files are for development. "serve -s build -p 8000" will start a server for the final product; localhost:3000 is the development server.
 
 function App() {
   //whether the add task form is showing or not. If use state is true, then the form will start out showing up.
